@@ -422,7 +422,7 @@ ul {
   display: flex;
 }
 .footer-social {
-  width: ;
+  margin-right: 80px;
 }
 .footer-social-name {
   font-size: 16px;
@@ -459,7 +459,37 @@ ul {
 }
 .footer-soc-icon {
 }
+.subscribe-title{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+.subscribe-button{
+  position: relative;
+  
+font-size: 16px;
+line-height: 1.5;
+color: #FFFFFF;
+justify-content: left;
+align-items: center;
+width: 165px;
+padding: 8px 24px;
+background-color: #4D5AE5;
+border-radius: 4px;
+border-color: transparent;
 
+}
+.subscribe-icon{
+  position: absolute;
+  content: "";
+ 
+  
+
+  
+  
+}
 
 /* portfolio */
 .portfolio-list {
