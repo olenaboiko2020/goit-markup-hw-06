@@ -194,8 +194,8 @@ ul {
 }
 .modal{
   position: absolute;
-  min-height: 576px;
-  min-width: 480px;
+  min-height: 584px;
+  min-width: 408px;
   background-color: #FCFCFC;
   top: 50%;
   left: 50%;
@@ -225,7 +225,55 @@ ul {
   fill: var(--primary-white-color);
 
 }
+/* Form */
+.form {
+  width: 360px;
+  margin-top: 72px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
 
+.modal-form-text{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  
+}
+.form-field {
+  /* border: 1px solid blue; */
+  
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+
+  
+letter-spacing: 0.04em;
+}
+.form-label {
+  margin-bottom: 4px;
+  text-align: start;
+  font-weight: 400;
+font-size: 12px;
+line-height: 1.33;
+letter-spacing: 0.04em;
+color: #8E8F99;
+}
+.form-input {
+  border: 1px solid  rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+
+}
+.textarea{
+  resize: none;
+}
+.button-submit{
+  width: 169px;
+  height: 56px;
+background-color:var(--accent-color);
+color: var(--primary-white-color);
+border-radius: 4px;
+border-color: transparent;
+}
 /* section and section team */
 .logo-icon {
   display: flex;
