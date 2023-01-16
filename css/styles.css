@@ -234,6 +234,7 @@ ul {
 }
 
 .modal-form-text{
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -245,13 +246,16 @@ ul {
   display: flex;
   flex-direction: column;
   margin-bottom: 8px;
+  
 
   
-letter-spacing: 0.04em;
+
+  
 }
 .form-label {
   margin-bottom: 4px;
   text-align: start;
+ 
   font-weight: 400;
 font-size: 12px;
 line-height: 1.33;
@@ -261,6 +265,7 @@ color: #8E8F99;
 .form-input {
   border: 1px solid  rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  outline: none;
 
 }
 .textarea{
@@ -507,6 +512,20 @@ border-color: transparent;
 }
 .footer-soc-icon {
 }
+/* subscribe form */
+.subscribe-form{
+display: flex;
+}
+.subscribe-input{
+  min-width: 264px;
+  height: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+background: #2E2F42;
+
+
+}
 .subscribe-title{
   font-size: 16px;
   line-height: 1.5;
@@ -515,28 +534,27 @@ border-color: transparent;
   margin-bottom: 8px;
 }
 .subscribe-button{
-  position: relative;
-  
-font-size: 16px;
-line-height: 1.19;
-color: #FFFFFF;
+ position: relative; 
+ font-size: 16px;
+ line-height: 1.5;
+ letter-spacing: 0.02em;
+ color: #ffffff;
 text-align: left;
 min-width: 165px;
+min-height: 40px;
 padding: 8px 24px;
 background-color: #4D5AE5;
 border-radius: 4px;
 border-color: transparent;
+margin-left: 24px;
+cursor:pointer ;
 
 }
 .subscribe-icon{
   position: absolute;
   content: "";
- top: 25%;
- right: 15%;
+  margin-left:16px;
  
-  
-
-  
   
 }
 
