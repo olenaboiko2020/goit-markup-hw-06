@@ -242,14 +242,11 @@ ul {
 }
 .form-field {
   /* border: 1px solid blue; */
-  
+  position:relative;
   display: flex;
   flex-direction: column;
   margin-bottom: 8px;
   
-
-  
-
   
 }
 .form-label {
@@ -266,10 +263,42 @@ color: #8E8F99;
   border: 1px solid  rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   outline: none;
-
+ 
+  
+}
+.form-input.starting{
+  padding-left: 36px;
+}
+.phone-icon{
+  position:absolute;
+  content: "";
+  top:52%;
+  margin-left: 16px;
+  fill: var(--secondary-text-color);
+}
+.form-input:focus{
+border-color: var(--accent-color);
+}
+.form-input:focus+.phone-icon{
+  fill: var(--accent-color);
 }
 .textarea{
   resize: none;
+}
+::placeholder{
+  font-size: 12px;
+line-height: 1.33;
+letter-spacing: 0.04em;
+color: rgba(117, 117, 117, 0.5);
+}
+.comment-aria{
+  padding: 8px 16px;
+}
+.form-input.checkbox{
+  width: 16px;
+height: 16px;
+border: 1.25px solid #2E2F42;
+border-radius: 2px;
 }
 .button-submit{
   width: 169px;
