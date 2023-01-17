@@ -269,7 +269,7 @@ color: #8E8F99;
 .form-input.starting{
   padding-left: 36px;
 }
-.phone-icon{
+.input-icon{
   position:absolute;
   content: "";
   top:52%;
@@ -279,7 +279,7 @@ color: #8E8F99;
 .form-input:focus{
 border-color: var(--accent-color);
 }
-.form-input:focus+.phone-icon{
+.form-input:focus+.input-icon{
   fill: var(--accent-color);
 }
 .textarea{
@@ -294,12 +294,27 @@ color: rgba(117, 117, 117, 0.5);
 .comment-aria{
   padding: 8px 16px;
 }
-.form-input.checkbox{
-  width: 16px;
-height: 16px;
-border: 1.25px solid #2E2F42;
-border-radius: 2px;
+.checkbox{
+ position: absolute;
+ appearance: none;
 }
+.form-label.checkbox-aria{
+  display: flex;
+
+}
+.icon{
+  margin-right: 8px;
+}
+.click-icon{
+  
+  content: "";
+background-color: #4D5AE5;
+
+}
+.checkbox:checked+.icon{
+background-color: var(--primary-white-color);
+}
+
 .button-submit{
   width: 169px;
   height: 56px;
