@@ -308,9 +308,10 @@
             </ul>
           </div>
           <div class="Subscribe-form">
-            <form>
-              <h3 class="subscribe-title">Subscribe</h3>
+            <h3 class="subscribe-title">Subscribe</h3>
+            <form class="subscribe-wrap">
               
+            
               <input class="subscribe-input" type="mail" name="mail" placeholder="E-mail">
               <button class="subscribe-button" type="submit">Subscribe <svg class="subscribe-icon " width="24px" height="24px">
                 <use href="./img/icons.svg#icon-plane" ></use>
@@ -322,13 +323,12 @@
     </footer>
     <div data-modal class="backdrop is-hidden">
       <div class="modal">
-
+        
         <button  data-modal-close type="button" class="modal-button">
           <svg  width="8px" height="8px">
             <use href="./img/icons.svg#icon-close"></use>
           </svg>
         </button>
-        
         <form class="form">
           <h3 class="modal-form-text">Leave your contacts and we will call you back</h3>
          
@@ -362,7 +362,7 @@
          
             <label class="form-label checkbox-aria">   <input type="checkbox" class="form-input checkbox " name="policy"  > <span class="icon"><svg class="click-icon" width="16px" height="16px">
               <use href="./img/icons.svg#icon-click-1"></use>
-            </svg></span>  I accept the terms and conditions of the <span class="policy-decoration"> Privacy Policy </span> </label>
+            </svg></span>  I accept the terms and conditions of the <a href="#" class="policy-decoration">Privacy Policy</a> </label>
           
           <button type="submit" class="button-submit">Send</button>
         </form>
