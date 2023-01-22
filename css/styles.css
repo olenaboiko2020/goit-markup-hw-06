@@ -357,7 +357,7 @@ ul {
 }
 
 .filing {
-  width: 254px;
+  width: 264px;
   margin-right: 120px;
 }
 .footer-text {
@@ -410,6 +410,9 @@ ul {
 }
 /* subscribe form */
 .subscribe-form {
+  display: flex;
+}
+.subscribe-wrap{
   display: flex;
 }
 .subscribe-input {
@@ -529,6 +532,7 @@ ul {
 }
 
 .modal-form-text {
+  text-align: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -623,6 +627,11 @@ ul {
 }
 .icon {
   margin-right: 8px;
+  width: 16px;
+  height: 16px;
+  
+  
+
 }
 .click-icon {
   content: "";
